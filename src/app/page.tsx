@@ -44,7 +44,7 @@ export default function HomePage() {
             width={150}
             height={50}
             priority
-            className="drop-shadow-lg"
+            className="drop-shadow-lg w-[100px] h-auto"
           />
 
           {/* Navigation Links */}
