@@ -1,11 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true, 
-  trailingSlash: false, 
   output: "export", 
+  trailingSlash: true,
+  reactStrictMode: true, 
   images: {
     unoptimized: true, 
+  
+
   },
   env: {
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
