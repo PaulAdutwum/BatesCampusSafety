@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { FaShuttleVan, FaSignInAlt, FaUserShield } from "react-icons/fa";
+import { FaSignInAlt } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { auth, googleProvider } from "../../src/lib/firebase";
 import { signInWithPopup, User } from "firebase/auth";
