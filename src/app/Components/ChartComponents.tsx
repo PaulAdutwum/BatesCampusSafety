@@ -40,7 +40,6 @@ const data: ChartData<"bar"> = {
   labels,
   datasets: [
     {
-      label: "🚖 Number of Rides",
       data: rideData,
       backgroundColor: [
         "#FF0000",
@@ -72,7 +71,7 @@ const options = {
     },
     title: {
       display: true,
-      text: "🚌 Ride Requests by Destination at Bates College",
+
       font: { size: 16 },
       color: "#333",
     },
@@ -98,7 +97,7 @@ export default function StaticDestinationChart() {
   return (
     <div className="w-full shadow-lg rounded-lg border border-gray-200">
       <h2 className="text-lg font-semibold text-gray-700 mb-4 text-center">
-        📊 Ride Requests by Destination
+        Ride Requests by Destination
       </h2>
 
       <div className="w-full h-72 flex items-center justify-center">

@@ -82,7 +82,7 @@ export default function RideRequestForm() {
           className={`w-full flex justify-center items-center space-x-2 px-4 py-3 rounded-lg text-white font-semibold text-lg transition duration-300
               ${
                 destination
-                  ? "bg-[#881124] hover:bg-[#a02234] shadow-md"
+                  ? "bg-blue-600 hover:bg-blue-800 shadow-md"
                   : "bg-gray-400 cursor-not-allowed"
               }`}
         >
